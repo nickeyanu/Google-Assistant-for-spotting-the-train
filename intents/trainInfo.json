@@ -1,0 +1,80 @@
+{
+  "id": "0cec1948-6681-4e36-8ea5-86802e688a5e",
+  "name": "trainInfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "trainnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "76182988-575e-4aa8-9eeb-c65df7d4ab67",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "trainnumber",
+          "value": "$trainnumber",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "sorry, I didn\u0027t get that. Please tell me your train number."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "33c64395-280b-4e64-873c-4294e1439a85",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the journey date?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "0351e922-bf1c-4ec6-a06c-fd49140a8c58",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "stationcode",
+          "value": "$stationcode",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the station code of your boarding station?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
