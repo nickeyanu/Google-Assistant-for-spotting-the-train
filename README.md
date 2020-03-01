@@ -11,4 +11,5 @@ To use this project:
 6. Click on import from zip and add this project into your zip file and upload
 7. Once imported you can use this voice over interface of spot the train in your device.
 8. You can also share this project using share options in setting (the same setting option that was used during Export and Import)
+
 **(Google assistant not calls external API if you are using free firebase plan (Spark). You have to use Pay as you go plan (Blaze) for this project)
